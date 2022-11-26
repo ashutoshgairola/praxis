@@ -36,7 +36,7 @@ const conf = convict({
     postgres: {
         doc: 'Postgres connection',
         format: String,
-        default: 'postgres://root:root@127.0.0.1:5434/sureshot',
+        default: 'sureshot.csoyrubrj51k.ap-northeast-1.rds.amazonaws.com',
         env: 'POSTGRES_READ_WRITE',
         arg: 'postgres',
         host: 'localhost',
